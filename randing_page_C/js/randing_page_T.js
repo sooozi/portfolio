@@ -44,14 +44,6 @@ circleHover.forEach((link) => {
 
 
 
-
-
-
-
-
-
-
-
 // 전체효과
 {
 
@@ -133,19 +125,22 @@ circleHover.forEach((link) => {
                 'title': 'BARREL',
                 'ver': 'PC VER.',
                 'bg_img': './images/barrel_bg.jpg',
-                'url': 'http://kimsuji.dothome.co.kr/barrel.html'
+                // 'url': 'http://kimsuji.dothome.co.kr/barrel.html'
+                'url': 'https://sooozi.github.io/portfolio_2021/barrel/'
             },
             {
                 'title': 'HOLLYS',
                 'ver': 'MOBILE VER.',
                 'bg_img': './images/hollys_bg.jpg',
-                'url': 'http://kimsuji.dothome.co.kr/hollys.html'
+                // 'url': 'http://kimsuji.dothome.co.kr/hollys.html'
+                'url': 'https://sooozi.github.io/portfolio_2021/hollys.mobile/hollys'
             },
             {
                 'title': 'NAMHAE',
                 'ver': 'RESPONSIVE VER.',
                 'bg_img': './images/nhchemical_bg.jpg',
-                'url': 'http://kimsuji.dothome.co.kr/namhae.html'
+                // 'url': 'http://kimsuji.dothome.co.kr/namhae.html'
+                'url': 'https://sooozi.github.io/portfolio_2021/nhchem/namhae'
             }
 
         ]
@@ -165,7 +160,7 @@ circleHover.forEach((link) => {
                     ver.text(portfolio_arr[0]['ver']);
                     bg_img.css('background-image', `url(${portfolio_arr[0]['bg_img']})`);
                     // $('.short_cut').attr('href', 'http://kimsuji.dothome.co.kr/barrel.html');
-                    $('.short_cut').attr('href', 'http://kimsuji.dothome.co.kr/barrel.html');
+                    $('.short_cut').attr('href', 'https://sooozi.github.io/portfolio_2021/barrel/');
 
 
                     $('.loop_area a.barrel').addClass('on');
@@ -175,8 +170,8 @@ circleHover.forEach((link) => {
                     title.text(portfolio_arr[1]['title']);
                     ver.text(portfolio_arr[1]['ver']);
                     bg_img.css('background-image', `url(${portfolio_arr[1]['bg_img']})`);
-                    $('.short_cut').attr('href', 'http://kimsuji.dothome.co.kr/hollys.html');
-                    // $('.short_cut').attr('href', 'aaaddd');
+                    // $('.short_cut').attr('href', 'http://kimsuji.dothome.co.kr/hollys.html');
+                    $('.short_cut').attr('href', 'https://sooozi.github.io/portfolio_2021/hollys.mobile/hollys');
 
                     $('.loop_area a.hollys').addClass('on');
                 }
@@ -194,7 +189,7 @@ circleHover.forEach((link) => {
                     ver.text(portfolio_arr[1]['ver']);
                     bg_img.css('background-image', `url(${portfolio_arr[1]['bg_img']})`);
                     // $('.short_cut').attr('href', 'http://kimsuji.dothome.co.kr/hollys.html');
-                    $('.short_cut').attr('href', '/hollys.mobile/hollys.html'); //this link hollys
+                    $('.short_cut').attr('href', 'https://sooozi.github.io/portfolio_2021/hollys.mobile/hollys'); //this link hollys
 
                     $('.loop_area a.hollys').addClass('on');
 
@@ -203,7 +198,8 @@ circleHover.forEach((link) => {
                     title.text(portfolio_arr[2]['title']);
                     ver.text(portfolio_arr[2]['ver']);
                     bg_img.css('background-image', `url(${portfolio_arr[2]['bg_img']})`);
-                    $('.short_cut').attr('href', 'http://kimsuji.dothome.co.kr/namhae.html');
+                    // $('.short_cut').attr('href', 'http://kimsuji.dothome.co.kr/namhae.html');
+                    $('.short_cut').attr('href', 'https://sooozi.github.io/portfolio_2021/nhchem/namhae');
 
                     $('.loop_area a.nh').addClass('on');
                 }
