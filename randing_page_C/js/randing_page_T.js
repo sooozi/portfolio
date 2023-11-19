@@ -139,8 +139,7 @@ circleHover.forEach((link) => {
                 'title': 'HOLLYS',
                 'ver': 'MOBILE VER.',
                 'bg_img': './images/hollys_bg.jpg',
-                // 'url': 'http://kimsuji.dothome.co.kr/hollys.html'
-                'url': 'a'
+                'url': 'http://kimsuji.dothome.co.kr/hollys.html'
             },
             {
                 'title': 'NAMHAE',
@@ -176,8 +175,8 @@ circleHover.forEach((link) => {
                     title.text(portfolio_arr[1]['title']);
                     ver.text(portfolio_arr[1]['ver']);
                     bg_img.css('background-image', `url(${portfolio_arr[1]['bg_img']})`);
-                    // $('.short_cut').attr('href', 'http://kimsuji.dothome.co.kr/hollys.html');
-                    $('.short_cut').attr('href', 'aaaddd');
+                    $('.short_cut').attr('href', 'http://kimsuji.dothome.co.kr/hollys.html');
+                    // $('.short_cut').attr('href', 'aaaddd');
 
                     $('.loop_area a.hollys').addClass('on');
                 }
